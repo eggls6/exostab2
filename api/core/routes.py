@@ -48,9 +48,9 @@ def root():
     return redirect("https://apexgroup.web.illinois.edu/")
 
 # The fun starts here
-@app.route("/stabilityborders/")
-def stabilityborders():
-    """Interpolates 
+@app.route("/circumbinary/")
+def circumbinary():
+    """Returns closest stability borders with numerical results. 
     
     Parameters:
     -----------
@@ -111,8 +111,8 @@ def stabilityborders():
     
     return result
 
-@app.route("/closestgridpoints/")
-def closestgridpoints(outheader=['m1','m2','mp','ab',
+@app.route("/circumbinarygrid/")
+def circumbinarygrid(outheader=['m1','m2','mp','ab',
                                  'eb','ep','ip','wp','nodep',
                                  'inner_border','outer_border',
                                  'tree_distance'], npoints=5,p1=5,p2=8,p3=2,
