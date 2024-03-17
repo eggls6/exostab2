@@ -1,9 +1,0 @@
-fastapi
-numpy
-requests
-a2wsgi
-flask
-flask_limiter
-julian
-pandas
-scipy
