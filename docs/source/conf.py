@@ -12,7 +12,6 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-    'nbsphinx',
     'sphinx_code_tabs',
     'sphinxcontrib.httpdomain',
     'sphinx.ext.duration',
@@ -32,9 +31,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = ['sphinx_rtd_theme']
-
-html_static_path = ["_static"]
+html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
