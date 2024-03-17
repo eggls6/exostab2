@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Exostab 2.0'
+copyright = '2024 UIUC'
+author = 'Siegfried Eggl'
 
 release = '0.1'
 version = '0.1.0'
@@ -12,6 +12,10 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
+    'sphinx_rtd_theme',
+    'nbsphinx',
+    'sphinx_code_tabs',
+    'sphinxcontrib.httpdomain',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
@@ -29,7 +33,9 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = ['sphinx_rtd_theme']
+
+html_static_path = ["_static"]
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

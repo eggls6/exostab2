@@ -16,3 +16,4 @@ Contents
 
 .. toctree::
    api
+   acknowledgments
