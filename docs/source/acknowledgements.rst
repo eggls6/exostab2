@@ -16,3 +16,4 @@ This effort is a collaboration between the University of Illinois Urbana-Champai
   :alt: Univie logo
 
 
+We would also like to acknowledge Michelle Dadighat (NSF NOIRLab) for her insights into API optimization and deployment.
