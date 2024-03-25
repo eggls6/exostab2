@@ -21,9 +21,13 @@ Contents
 
 .. toctree::
    api
+   about
 
 Acknowledgements
 ----------------
+If you found this resource useful, please add the following text to your acknowledgements:
+"This project has made use of ExoStab 2.0, an online service jointly developed by the University of Illinos at Urbana-Champaign, the New York University Abu Dhabi and the University of Vienna."
+
 
 This effort is a collaboration between the University of Illinois Urbana-Champaign (UIUC), the New York University Abu-Dhabi (NYUAD) and the University of Vienna (Univie).
 
