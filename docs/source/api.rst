@@ -23,6 +23,9 @@ Retrieve stability borders for a circumbinary planet
 **Example Request**
     .. tabs::
 
+        .. code-tab:: browser
+            https://apexgroup.web.illinois.edu/stability/circumbinary/?m1=1&m2=0.5&mp=0.0001&ab=0.5&eb=0.3&ep=0.5&ip=20&wp=90&nodep=0
+
         .. code-tab:: python
 
             import requests
@@ -81,6 +84,8 @@ Retrieve nearby stability border grid for a circumbinary planet
 
 **Example Request**
     .. tabs::
+        .. code-tab:: browser
+            https://apexgroup.web.illinois.edu/stability/circumbinarygrid/?m1=1&m2=0.5&mp=0.0001&ab=0.5&eb=0.3&ep=0.5&ip=20&wp=90&nodep=0&npoints=8&orient=table
 
         .. code-tab:: python
 
