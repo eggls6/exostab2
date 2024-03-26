@@ -1,3 +1,5 @@
+.. _API
+
 Exostab 2.0 API
 =============
 
@@ -23,8 +25,8 @@ Retrieve stability borders for a circumbinary planet
 **Example Request**
     .. tabs::
 
-        .. tab:: browser
-            `https://apexgroup.web.illinois.edu/stability/circumbinary/?m1=1&m2=0.5&mp=0.0001&ab=0.5&eb=0.3&ep=0.5&ip=20&wp=90&nodep=0`_
+        .. tab:: Browser
+            `https://apexgroup.web.illinois.edu/stability/circumbinary/?m1=1&m2=0.5&mp=0.0001&ab=0.5&eb=0.3&ep=0.5&ip=20&wp=90&nodep=0 <https://apexgroup.web.illinois.edu/stability/circumbinary/?m1=1&m2=0.5&mp=0.0001&ab=0.5&eb=0.3&ep=0.5&ip=20&wp=90&nodep=0>`_
 
         .. code-tab:: python
 
@@ -84,8 +86,8 @@ Retrieve nearby stability border grid for a circumbinary planet
 
 **Example Request**
     .. tabs::
-        .. tab:: browser
-            `https://apexgroup.web.illinois.edu/stability/circumbinarygrid/?m1=1&m2=0.5&mp=0.0001&ab=0.5&eb=0.3&ep=0.5&ip=20&wp=90&nodep=0&npoints=8&orient=table`_
+        .. tab:: Browser
+            `https://apexgroup.web.illinois.edu/stability/circumbinarygrid/?m1=1&m2=0.5&mp=0.0001&ab=0.5&eb=0.3&ep=0.5&ip=20&wp=90&nodep=0&npoints=8&orient=table <https://apexgroup.web.illinois.edu/stability/circumbinarygrid/?m1=1&m2=0.5&mp=0.0001&ab=0.5&eb=0.3&ep=0.5&ip=20&wp=90&nodep=0&npoints=8&orient=table>`_
 
         .. code-tab:: python
 
