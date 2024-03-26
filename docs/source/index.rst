@@ -20,6 +20,7 @@ Contents
 --------
 
 .. toctree::
+   index
    api
    about
 
